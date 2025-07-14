@@ -24,7 +24,7 @@ export const Navbar = () => {
               <Link href="#" className="text-black"><Phone/></Link>
           </div>
           <div className="">
-              <button className="text-white bg-black py-3 rounded-2xl px-7">Book a Call</button>
+              <button className="text-white bg-black py-3 rounded-2xl px-7 hover:bg-slate-700  transition-normal cursor-pointer">Book a Call</button>
           </div>
       </nav>
     </>
