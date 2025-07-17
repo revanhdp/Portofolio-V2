@@ -2,19 +2,10 @@ import React from 'react'
 import { Home, Instagram, Linkedin, List, Phone, Twitter } from "lucide-react";
 import Link from "next/link";
 
-type Nav = {
-  name: string;
-  src: string;
-}
-
-const navlist: Nav[] = [
-  {name: 'Home', src: '<Home/>'}
-]
-
 export const Navbar = () => {
   return (
     <>
-      <nav className="mt-7 w-fit mx-auto flex border px-4 rounded-3xl py-3 gap-5 justify-center items-center fixed right-0 left-0 bg-white">
+      <nav className="mt-7 w-fit mx-auto flex border px-4 rounded-3xl py-3 gap-5 justify-center items-center fixed right-0 left-0 bg-white z-50">
           <div className="border-r h-fit border-slate-300 pr-5">
               <Link href="#" className="text-black"><Home/></Link>
           </div>
